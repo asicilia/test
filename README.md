@@ -10,9 +10,9 @@ Installation
 
 #### Create the database
 
-1. Create a database called 'mapon' and import tables from 'mapon_base_db.sql'
-> CREATE DATABASE mapon;
-> mysql --user=<database_user> --password=<database_password> mapon < mapon_base_db.sql
+1. Create a database called 'mapon' and import tables from 'mapon_base_db.sql'.
+  > CREATE DATABASE mapon;
+  > mysql --user=<database_user> --password=<database_password> mapon < mapon_base_db.sql
 
 Note: Sql file are located in 'application/config/mapon_base_db.sql'
 
