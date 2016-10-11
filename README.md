@@ -8,7 +8,7 @@ Map-On is a graphical environment for ontology mapping which helps different kin
 Installation
 -------------
 
-#### Create the database
+### Create the database
 1. Create a database called 'mapon' and import tables from 'mapon_base_db.sql'
 
 > CREATE DATABASE mapon;
@@ -16,7 +16,7 @@ Installation
 
 **Note:** Sql file are located in 'application/config/mapon_base_db.sql'
 
-#### Framework configuration
+### Framework configuration
 1. Rename the files 'config.dist.php' and 'database.dist.php' to 'config.php' and 'database.php'
 > sudo cp application/config/config.dist.php application/config/config.php 
 > sudo cp application/config/database.dist.php application/config/database.php 
