@@ -9,6 +9,7 @@ Installation
 ### System configuration
 Make sure 'mysql' command are available on terminal.
 > $ mysql
+
 If not available, add mysql path to your environment PATH variable.
 
 ### Create the database
