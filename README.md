@@ -8,14 +8,13 @@ Installation
 -------------
 ### System configuration
 Make sure 'mysql' command are available on terminal.
-> $ mysql
-
+> $ mysql <br/>
 If not available, add mysql path to your environment PATH variable.
 
 ### Create the database
 Create a database called 'mapon' and import tables from 'mapon_base_db.sql'
 
-> $ CREATE DATABASE mapon;
+> $ CREATE DATABASE mapon; <br/>
 > $ mysql --user=<database_user> --password=<database_password> mapon < mapon_base_db.sql
 
 **Note:** Sql file are located in 'application/config/mapon_base_db.sql'
