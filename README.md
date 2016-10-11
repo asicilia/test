@@ -9,15 +9,14 @@ Installation
 -------------
 
 #### Create the database
+1. Create a database called 'mapon' and import tables from 'mapon_base_db.sql'
 
-1. Create a database called 'mapon' and import tables from 'mapon_base_db.sql'.
-  > CREATE DATABASE mapon;
-  > mysql --user=<database_user> --password=<database_password> mapon < mapon_base_db.sql
+> CREATE DATABASE mapon;
+> mysql --user=<database_user> --password=<database_password> mapon < mapon_base_db.sql
 
-Note: Sql file are located in 'application/config/mapon_base_db.sql'
+**Note:** Sql file are located in 'application/config/mapon_base_db.sql'
 
 #### Framework configuration
-
 1. Rename the files 'config.dist.php' and 'database.dist.php' to 'config.php' and 'database.php'
 > sudo cp application/config/config.dist.php application/config/config.php 
 > sudo cp application/config/database.dist.php application/config/database.php 
