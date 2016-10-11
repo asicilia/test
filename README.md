@@ -21,14 +21,14 @@ Create a database called 'mapon' and import tables from 'mapon_base_db.sql'
 <br/><br/>
 ### Framework configuration
 Rename the files 'config.dist.php' and 'database.dist.php' to 'config.php' and 'database.php'
-> $ sudo cp application/config/config.dist.php application/config/config.php 
+> $ sudo cp application/config/config.dist.php application/config/config.php <br/>
 > $ sudo cp application/config/database.dist.php application/config/database.php 
 
 Modify base_url variable from 'application/config/config.php'
 > $config['base_url'] = 'http://localhost/<project_path>';
 
 Modify database credentials from 'application/config/database.php'
-> $db['default']['username'] = 'database_username';
+> $db['default']['username'] = 'database_username'; <br/>
 > $db['default']['password'] = 'database_password';
 
 
